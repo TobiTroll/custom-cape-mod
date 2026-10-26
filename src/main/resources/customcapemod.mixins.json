@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "dev.localcapes.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["TitleScreenMixin", "AbstractClientPlayerMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

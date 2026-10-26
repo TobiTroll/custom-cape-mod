@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "customcapemod",
+  "version": "${version}",
+  "name": "Custom Cape Mod",
+  "description": "Choose and wear a local custom cape from the title screen.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.localcapes.LocalCapesClient"] },
+  "mixins": ["customcapemod.mixins.json"],
+  "depends": { "fabricloader": ">=0.19.5", "minecraft": "~26.3", "java": ">=25", "fabric-api": "*" }
+}
